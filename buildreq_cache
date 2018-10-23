@@ -1,0 +1,11 @@
+0.78
+perl(File::Copy::Recursive)
+perl(File::ShareDir::Install)
+perl(Inline)
+perl(Parse::RecDescent)
+perl(Pegex)
+perl(Pegex::Base)
+perl(Pegex::Parser)
+perl(Sub::Uplevel)
+perl(Test::Warn)
+perl(YAML::XS)
