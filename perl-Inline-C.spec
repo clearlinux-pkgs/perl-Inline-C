@@ -4,7 +4,7 @@
 #
 Name     : perl-Inline-C
 Version  : 0.78
-Release  : 6
+Release  : 7
 URL      : https://cpan.metacpan.org/authors/id/T/TI/TINITA/Inline-C-0.78.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/T/TI/TINITA/Inline-C-0.78.tar.gz
 Summary  : 'C Language Support for Inline'
