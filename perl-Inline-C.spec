@@ -85,19 +85,19 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.28.0/Inline/C.pm
-/usr/lib/perl5/vendor_perl/5.28.0/Inline/C.pod
-/usr/lib/perl5/vendor_perl/5.28.0/Inline/C/Cookbook.pod
-/usr/lib/perl5/vendor_perl/5.28.0/Inline/C/ParsePegex.pod
-/usr/lib/perl5/vendor_perl/5.28.0/Inline/C/ParseRecDescent.pod
-/usr/lib/perl5/vendor_perl/5.28.0/Inline/C/ParseRegExp.pod
-/usr/lib/perl5/vendor_perl/5.28.0/Inline/C/Parser.pm
-/usr/lib/perl5/vendor_perl/5.28.0/Inline/C/Parser/Pegex.pm
-/usr/lib/perl5/vendor_perl/5.28.0/Inline/C/Parser/Pegex/AST.pm
-/usr/lib/perl5/vendor_perl/5.28.0/Inline/C/Parser/Pegex/Grammar.pm
-/usr/lib/perl5/vendor_perl/5.28.0/Inline/C/Parser/RecDescent.pm
-/usr/lib/perl5/vendor_perl/5.28.0/Inline/C/Parser/RegExp.pm
-/usr/lib/perl5/vendor_perl/5.28.0/auto/share/dist/Inline-C/inline-c.pgx
+/usr/lib/perl5/vendor_perl/5.28.1Inline/C.pm
+/usr/lib/perl5/vendor_perl/5.28.1Inline/C.pod
+/usr/lib/perl5/vendor_perl/5.28.1Inline/C/Cookbook.pod
+/usr/lib/perl5/vendor_perl/5.28.1Inline/C/ParsePegex.pod
+/usr/lib/perl5/vendor_perl/5.28.1Inline/C/ParseRecDescent.pod
+/usr/lib/perl5/vendor_perl/5.28.1Inline/C/ParseRegExp.pod
+/usr/lib/perl5/vendor_perl/5.28.1Inline/C/Parser.pm
+/usr/lib/perl5/vendor_perl/5.28.1Inline/C/Parser/Pegex.pm
+/usr/lib/perl5/vendor_perl/5.28.1Inline/C/Parser/Pegex/AST.pm
+/usr/lib/perl5/vendor_perl/5.28.1Inline/C/Parser/Pegex/Grammar.pm
+/usr/lib/perl5/vendor_perl/5.28.1Inline/C/Parser/RecDescent.pm
+/usr/lib/perl5/vendor_perl/5.28.1Inline/C/Parser/RegExp.pm
+/usr/lib/perl5/vendor_perl/5.28.1auto/share/dist/Inline-C/inline-c.pgx
 
 %files dev
 %defattr(-,root,root,-)
