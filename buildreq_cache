@@ -1,4 +1,4 @@
-0.78
+0.80
 perl(File::Copy::Recursive)
 perl(File::ShareDir::Install)
 perl(Inline)
