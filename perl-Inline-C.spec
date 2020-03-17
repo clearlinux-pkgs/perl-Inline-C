@@ -4,7 +4,7 @@
 #
 Name     : perl-Inline-C
 Version  : 0.81
-Release  : 13
+Release  : 14
 URL      : https://cpan.metacpan.org/authors/id/T/TI/TINITA/Inline-C-0.81.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/T/TI/TINITA/Inline-C-0.81.tar.gz
 Summary  : 'C Language Support for Inline'
@@ -112,16 +112,16 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/Inline/C.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Inline/C.pod
-/usr/lib/perl5/vendor_perl/5.30.1/Inline/C/Cookbook.pod
-/usr/lib/perl5/vendor_perl/5.30.1/Inline/C/ParsePegex.pod
-/usr/lib/perl5/vendor_perl/5.30.1/Inline/C/ParseRecDescent.pod
-/usr/lib/perl5/vendor_perl/5.30.1/Inline/C/ParseRegExp.pod
-/usr/lib/perl5/vendor_perl/5.30.1/Inline/C/Parser.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Inline/C/Parser/Pegex.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Inline/C/Parser/Pegex/AST.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Inline/C/Parser/Pegex/Grammar.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Inline/C/Parser/RecDescent.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Inline/C/Parser/RegExp.pm
-/usr/lib/perl5/vendor_perl/5.30.1/auto/share/dist/Inline-C/inline-c.pgx
+/usr/lib/perl5/vendor_perl/5.30.2/Inline/C.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Inline/C.pod
+/usr/lib/perl5/vendor_perl/5.30.2/Inline/C/Cookbook.pod
+/usr/lib/perl5/vendor_perl/5.30.2/Inline/C/ParsePegex.pod
+/usr/lib/perl5/vendor_perl/5.30.2/Inline/C/ParseRecDescent.pod
+/usr/lib/perl5/vendor_perl/5.30.2/Inline/C/ParseRegExp.pod
+/usr/lib/perl5/vendor_perl/5.30.2/Inline/C/Parser.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Inline/C/Parser/Pegex.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Inline/C/Parser/Pegex/AST.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Inline/C/Parser/Pegex/Grammar.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Inline/C/Parser/RecDescent.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Inline/C/Parser/RegExp.pm
+/usr/lib/perl5/vendor_perl/5.30.2/auto/share/dist/Inline-C/inline-c.pgx
