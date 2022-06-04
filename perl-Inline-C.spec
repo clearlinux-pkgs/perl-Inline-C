@@ -4,12 +4,13 @@
 #
 Name     : perl-Inline-C
 Version  : 0.82
-Release  : 24
+Release  : 25
 URL      : https://cpan.metacpan.org/authors/id/E/ET/ETJ/Inline-C-0.82.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/E/ET/ETJ/Inline-C-0.82.tar.gz
 Summary  : 'C Language Support for Inline'
 Group    : Development/Tools
-License  : Artistic-1.0-Perl
+License  : Artistic-1.0 Artistic-1.0-Perl GPL-1.0
+Requires: perl-Inline-C-license = %{version}-%{release}
 Requires: perl-Inline-C-perl = %{version}-%{release}
 BuildRequires : buildreq-cpan
 BuildRequires : perl(File::Copy::Recursive)
@@ -36,6 +37,14 @@ Requires: perl-Inline-C = %{version}-%{release}
 
 %description dev
 dev components for the perl-Inline-C package.
+
+
+%package license
+Summary: license components for the perl-Inline-C package.
+Group: Default
+
+%description license
+license components for the perl-Inline-C package.
 
 
 %package perl
@@ -73,6 +82,8 @@ make TEST_VERBOSE=1 test || :
 
 %install
 rm -rf %{buildroot}
+mkdir -p %{buildroot}/usr/share/package-licenses/perl-Inline-C
+cp %{_builddir}/Inline-C-0.82/LICENSE %{buildroot}/usr/share/package-licenses/perl-Inline-C/35cf46e87a9312e8e911f86388ff1235032b779d
 if test -f Makefile.PL; then
 make pure_install PERL_INSTALL_ROOT=%{buildroot} INSTALLDIRS=vendor
 else
@@ -94,18 +105,10 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 /usr/share/man/man3/Inline::C::ParseRecDescent.3
 /usr/share/man/man3/Inline::C::ParseRegExp.3
 
+%files license
+%defattr(0644,root,root,0755)
+/usr/share/package-licenses/perl-Inline-C/35cf46e87a9312e8e911f86388ff1235032b779d
+
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/Inline/C.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Inline/C.pod
-/usr/lib/perl5/vendor_perl/5.34.0/Inline/C/Cookbook.pod
-/usr/lib/perl5/vendor_perl/5.34.0/Inline/C/ParsePegex.pod
-/usr/lib/perl5/vendor_perl/5.34.0/Inline/C/ParseRecDescent.pod
-/usr/lib/perl5/vendor_perl/5.34.0/Inline/C/ParseRegExp.pod
-/usr/lib/perl5/vendor_perl/5.34.0/Inline/C/Parser.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Inline/C/Parser/Pegex.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Inline/C/Parser/Pegex/AST.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Inline/C/Parser/Pegex/Grammar.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Inline/C/Parser/RecDescent.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Inline/C/Parser/RegExp.pm
-/usr/lib/perl5/vendor_perl/5.34.0/auto/share/dist/Inline-C/inline-c.pgx
+/usr/lib/perl5/*
