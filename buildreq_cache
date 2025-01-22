@@ -1,4 +1,5 @@
 0.82
+perl(Digest::MD5)
 perl(File::Copy::Recursive)
 perl(File::ShareDir::Install)
 perl(Inline)
