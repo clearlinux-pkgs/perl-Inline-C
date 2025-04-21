@@ -7,7 +7,7 @@
 #
 Name     : perl-Inline-C
 Version  : 0.82
-Release  : 32
+Release  : 33
 URL      : https://cpan.metacpan.org/authors/id/E/ET/ETJ/Inline-C-0.82.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/E/ET/ETJ/Inline-C-0.82.tar.gz
 Summary  : 'C Language Support for Inline'
